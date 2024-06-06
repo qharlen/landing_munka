@@ -7,7 +7,6 @@ export default function works() {
     const firstStep = worksSection.querySelector('.first_step')
 
     progressbar.addEventListener('click', (event) => {
-        console.log(1)
         if (event.target && event.target.nodeName == "LI") {
             const dataStep = event.target.getAttribute('data-step');
             for (let index = dataStep - 1; index < progressbarSteps.length; index++) {
