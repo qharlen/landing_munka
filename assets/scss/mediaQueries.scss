@@ -37,6 +37,10 @@
     }
     /*End Header */
     /*Hero */
+
+    .hero{
+        height: auto;
+    }
     .hero__content {
         justify-content: center;
         text-align: center;
@@ -50,6 +54,10 @@
         width: 50%;
     }
     /*End Testimonials*/
+
+    .opportunities__head{
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width:768px) {
