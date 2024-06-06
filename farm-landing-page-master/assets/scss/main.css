@@ -18,8 +18,8 @@ body {
   color: #000000;
 }
 
-ul {
-  list-style: none;
+li::marker {
+  color: #E19C59;
 }
 
 a {
